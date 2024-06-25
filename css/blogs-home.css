@@ -1,62 +1,108 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .main-nav {
-    /* height: 40vh; */
-    background-color: #F0F0F0;
-    font-family: Inter, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+  /* height: 40vh; */
+  background-color: #f0f0f0;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .menu-burger {
-    padding: .5rem;
+  padding: 0.5rem;
 }
-.menu-burger button{
-    display: flex;
-    align-items: center;
-    background: transparent;
-    border: 1px solid #c5c4c4;
-    border-radius: 2px;
-    padding: .2rem .5rem;
-    gap: 3px !important;
+.menu-burger button {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: 1px solid #c5c4c4;
+  border-radius: 2px;
+  padding: 0.2rem 0.5rem;
+  gap: 3px !important;
 
-    font-size: 14px;
-    font-family: Inter, sans-serif;
-
+  font-size: 14px;
+  font-family: Inter, sans-serif;
 }
 
 .content {
-    text-align: center;
-    margin: 0px 15rem;
+  text-align: center;
+  margin: 0px 15rem;
 }
 
-.content h1{
-    margin: 1rem 0;
+.content h1 {
+  margin: 1rem 0;
 }
-.content p{
-    color: #a7a6a6;
-    margin-bottom: 1.5rem;
-    font-family: serif;
+.content p {
+  color: #a7a6a6;
+  margin-bottom: 1.5rem;
+  font-family: serif;
 }
 
 .socila-links-lists {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    list-style: none;
-    font-size: 20px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  font-size: 20px;
 }
-.socila-links-lists li a{
+.socila-links-lists li a {
+  color: #8b8a8a;
+}
+
+/* ///////////////////////////////// */
+/* styling the blog section */
+/* //////////////////////////////// */
+
+#blog-post {
+  margin: 3rem 20rem;
+}
+
+.blog-post-h1 {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+}
+.blog-post-h6 {
+    font-family: Inter, sans-serif;
     color: #8b8a8a;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
+.blog-post-p {
+    font-family: serif;
+    color: #2e2e2e;
+}
 
+.blog-post-h1,
+.blog-post-h6,
+.blog-post-p,
+.blog-post-btn {
+  margin-bottom: 1rem;
+}
 
+.blog-post-btn {
+  background: transparent;
+  border-radius: 50px;
+  border: 1px solid #c5c4c4;
+  padding: 5px 0px;
+  width: 10rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.btn-blog-link {
+  text-decoration: none;
+  margin: 0px;
+}
