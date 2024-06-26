@@ -28,11 +28,13 @@
 
   font-size: 14px;
   font-family: Inter, sans-serif;
+  cursor: pointer;
 }
 
 .content {
   text-align: center;
   margin: 0px 15rem;
+  letter-spacing: 1px;
 }
 
 .content h1 {
@@ -76,7 +78,8 @@
 }
 
 .blog-post-p {
-    font-family: serif;
+    font-family: "Playfair Display";
+    font-size: 14px;
     color: #2e2e2e;
 }
 
@@ -85,14 +88,17 @@
 .blog-post-p,
 .blog-post-btn {
   margin-bottom: 1rem;
+  letter-spacing: 1px;
 }
 
 .blog-post-btn {
   background: transparent;
   border-radius: 50px;
   border: 1px solid #c5c4c4;
-  padding: 5px 0px;
-  width: 10rem;
+  padding: 5px 10px;
+  width: 12rem;
+  text-decoration: none;
+  color: #2e2e2e;
 
   display: flex;
   align-items: center;
