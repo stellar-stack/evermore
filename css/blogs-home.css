@@ -12,6 +12,7 @@
   font-weight: 400;
 
   padding-bottom: 2rem;
+  padding-top: 0.5rem;
 }
 
 .menu-burger {
@@ -40,6 +41,7 @@
 .content h1 {
   margin: 1rem 0;
 }
+
 .content p {
   color: #a7a6a6;
   margin-bottom: 1.5rem;
