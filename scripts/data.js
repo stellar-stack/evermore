@@ -6,16 +6,80 @@ const blogs = [
           debitis inventore libero adipisci quaerat reprehenderit. Quis enim
           expedita, mollitia doloribus autem nemo officiis perferendis aperiam!
           Quasi, quisquam! Voluptatibus, ut mollitia?`,
- 
-    // This is the main <header> content object
-    mainContent: {
-      button: `<ion-icon name="menu-outline"></ion-icon>`,
-      h1: `EVERMORE`,
-      p: ` I'm a simple responsive web template. Easily add new blog posts
-            using the <br />
-            Webflow Editor or customize your layout/design usinng the Webflow
-            Designer.`,
-    },
+
+    btnLink: `pagelinks/python.html`,
+  },
+  {
+    title: "Wherever wow far thus a squirrel",
+    date: "March 3, 2016",
+    content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          debitis inventore libero adipisci quaerat reprehenderit. Quis enim
+          expedita, mollitia doloribus autem nemo officiis perferendis aperiam!
+          Quasi, quisquam! Voluptatibus, ut mollitia?`,
+    btnLink: `pagelinks/about.html`,
+  },
+  {
+    title: "Wherever wow far thus a squirrel",
+    date: "March 3, 2016",
+    content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          debitis inventore libero adipisci quaerat reprehenderit. Quis enim
+          expedita, mollitia doloribus autem nemo officiis perferendis aperiam!
+          Quasi, quisquam! Voluptatibus, ut mollitia?`,
+    btnLink: `pagelinks/about.html`,
+  },
+  {
+    title: "Wherever wow far thus a squirrel",
+    date: "March 3, 2016",
+    content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          debitis inventore libero adipisci quaerat reprehenderit. Quis enim
+          expedita, mollitia doloribus autem nemo officiis perferendis aperiam!
+          Quasi, quisquam! Voluptatibus, ut mollitia?`,
+    btnLink: `pagelinks/about.html`,
+  },
+  {
+    title: "Wherever wow far thus a squirrel",
+    date: "March 3, 2016",
+    content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          debitis inventore libero adipisci quaerat reprehenderit. Quis enim
+          expedita, mollitia doloribus autem nemo officiis perferendis aperiam!
+          Quasi, quisquam! Voluptatibus, ut mollitia?`,
+    btnLink: `pagelinks/about.html`,
+  },
+  {
+    title: "Wherever wow far thus a squirrel",
+    date: "March 3, 2016",
+    content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          debitis inventore libero adipisci quaerat reprehenderit. Quis enim
+          expedita, mollitia doloribus autem nemo officiis perferendis aperiam!
+          Quasi, quisquam! Voluptatibus, ut mollitia?`,
+    btnLink: `pagelinks/about.html`,
+  },
+  {
+    title: "Wherever wow far thus a squirrel",
+    date: "March 3, 2016",
+    content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          debitis inventore libero adipisci quaerat reprehenderit. Quis enim
+          expedita, mollitia doloribus autem nemo officiis perferendis aperiam!
+          Quasi, quisquam! Voluptatibus, ut mollitia?`,
+    btnLink: `pagelinks/about.html`,
+  },
+  {
+    title: "Wherever wow far thus a squirrel",
+    date: "March 3, 2016",
+    content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          debitis inventore libero adipisci quaerat reprehenderit. Quis enim
+          expedita, mollitia doloribus autem nemo officiis perferendis aperiam!
+          Quasi, quisquam! Voluptatibus, ut mollitia?`,
+    btnLink: `pagelinks/about.html`,
+  },
+  {
+    title: "Wherever wow far thus a squirrel",
+    date: "March 3, 2016",
+    content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          debitis inventore libero adipisci quaerat reprehenderit. Quis enim
+          expedita, mollitia doloribus autem nemo officiis perferendis aperiam!
+          Quasi, quisquam! Voluptatibus, ut mollitia?`,
+    btnLink: `pagelinks/about.html`,
   },
 ];
 
@@ -25,7 +89,7 @@ const socials = [
       link_1: `#`,
       link_2: `https://github.com/SuperSimpledev-alt`,
       link_3: `#`,
-      link_4: `#`,
+      link_4: `furqan.pioneer@stellar.com`,
     },
 
     social_icons: {

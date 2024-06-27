@@ -16,7 +16,7 @@ socials.forEach((social) => {
                 >${social.social_icons.social_icon_3}</a>
             </li>
             <li>
-              <a href="${social.link.link_4}" target="_blank">${social.social_icons.social_icon_4}</ion-icon></a>
+              <a href="mailto:${social.link.link_4}">${social.social_icons.social_icon_4}</ion-icon></a>
             </li>
           </ul>`;
 });
@@ -33,7 +33,7 @@ blogs.forEach((blog) => {
           ${blog.content}
         </p>
 
-        <a class="blog-post-btn" href="pagelinks/python.html"
+        <a class="blog-post-btn" href="${blog.btnLink}"
         >Continue Reading &rarr;</a>
 
         <hr />
