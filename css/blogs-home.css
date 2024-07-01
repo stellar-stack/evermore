@@ -64,10 +64,35 @@
 /* styling the blog section */
 /* //////////////////////////////// */
 
-#blog-post {
-  margin: 3rem 20rem;
+.js-py-data {
+  display: flex;
+  height: 100vh;
 }
 
+#blog-post {
+  margin: 1rem 10rem;
+  line-height: 2rem;
+}
+
+/* Styling the side bar of Python documentation */
+.python-topics {
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+  width: 40%;
+  padding: 1rem;
+  
+  overflow: scroll;
+  background-color: #f0f0f0;
+}
+
+.python-topics ul a {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 16px;
+  color: #2e2e2e;
+}
+
+/* main content styling of the python doc */
 .blog-post-h1 {
   font-family: Inter, sans-serif;
   font-weight: 600;
@@ -119,4 +144,21 @@
 .btn-blog-link {
   text-decoration: none;
   margin: 0px;
+}
+
+/* Styling the code example div */
+
+.python-code-example {
+  background-color: #181818;
+  color: white;
+  font-size: large;
+  padding: 1rem;
+}
+
+.programme-color {
+  color: yellow;
+}
+
+.programme-statement {
+  color: orange;
 }
