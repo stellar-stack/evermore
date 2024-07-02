@@ -9,7 +9,7 @@ dataPy.forEach((data) => {
             <a href="#"><li>Python Get Started</li><a>
             <a href="#"><li>Python Syntax</li><a>
             <a href="#"><li>Python Comments</li><a>
-            <a href="#"><li>Python Varriables</li><a>
+            <a href="../blogs/variables.html"><li>Python Variables</li><a>
             <a href="#"><li>Python DataTypes</li><a>
             <a href="#"><li>Python Numbers</li><a>
             <a href="#"><li>Python Casting</li><a>
@@ -61,11 +61,7 @@ If you already have the prefered one then it's just fine. <u> and make sure you 
     <img width='50%'  src='../img/output.png' />
       </div>
 
-        </div>
-
-     
-      
-      
+        </div> 
       `;
 });
 
