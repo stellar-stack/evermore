@@ -50,13 +50,13 @@ dataPy.forEach((data) => {
         <a href="https://www.python.org/downloads/" target= "blank"> ${data.a}  <a>
         <span>Get it for whatever operating system you are using! </span>
 
-<p class="blog-post-p">Secondly, installing visual studio code: search VS code from your browser.
+<p class="blog-post-p">Secondly, installing visual studio code: search VS code in your browser.
 If you already have the prefered one then it's just fine. <u> and make sure you have the python extension needed to run the code </u></p>
  
 <h3> Your first hello world programme in Python. </h3>
 
 <div class="python-code-example">
-      <p> <span class="programme-color">print<span> <span class = "programme-statement">("Hello World!")<span></p>
+      <p> <span class="programme-color"><code>print<code><span><span class = "programme-statement"><code>("Hello World!")<code><span></p>
    
     <img width='50%'  src='../img/output.png' />
       </div>
